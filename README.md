@@ -3,7 +3,7 @@ This repository contains example code and functions to implement the Geographic 
 
 Reviewing the [GAT walkthrough](https://nystracking.github.io/gatpkg/dev/articles/gat_tutorial.html) is strongly encouraged before starting this process.
 
-# Instructions. 
+# Instructions
 1. Download the repository and change input and output paths accordingly. 
 2. Run the Functions script to create the shapefiles and Map_Save functions. 
 3. Run the SHAPER script to walk through an example of using GAT to de-identify data. 
