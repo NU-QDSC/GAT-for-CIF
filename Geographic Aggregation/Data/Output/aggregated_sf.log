@@ -1,0 +1,54 @@
+NYSDOH Geographic Aggregation Tool (GAT) Log 
+  Version & date: 2.0.0 2023-03-15 
+  Date run: 2024-05-02 
+  Time GAT took to run: 10.33 minutes 
+
+
+Input file:           
+  Projection:         NA 
+  Field names:        FIPS, Tract, County, State, pop, n 
+  Identifier:         FIPS 
+  Adjacency required? TRUE 
+  Boundary variable:  COUNTYFP 
+    You did not require the aggregation to respect the borders of COUNTYFP
+
+Output file: C:/Users/teh6043/Geographic Aggregation//Data/Output/aggregated_sf 
+  Number of input areas:     2,110 
+  Number of output areas:    890 
+  Number of aggregations:    1,220 
+  Number of excluded areas:  NULL
+
+Merge type: least 
+  Prefer aggregating to areas below minimum value first? TRUE
+
+Exclusion criteria: 
+  1.  n equals 0
+
+First aggregation variable: n 
+  Minimum value: 20 
+  Maximum value: 23,132 
+Pre-aggregation distribution:
+"0%" 1
+"25%" 6
+"50%" 11
+"75%" 16
+"100%" 21
+
+Post-aggregation distribution:
+"0%" 20
+"25%" 22
+"50%" 25
+"75%" 29
+"100%" 43
+
+GAT calculated the rate rate using the color scheme . 
+  Numerator:   n 
+  Denominator: pop 
+  Multiplier:  10,000 
+
+All files have been saved to  C:/Users/teh6043/Geographic Aggregation//Data/Output/ 
+  The shapefiles failed to save.  
+  Maps:                              aggregated_sfplots.pdf 
+  Log file:                          aggregated_sf.log 
+  R settings file:                   aggregated_sfsettings.Rdata 
+  You chose not to write a KML file.
